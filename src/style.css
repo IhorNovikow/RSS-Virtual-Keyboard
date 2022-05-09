@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+}
+.classTitle {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.classInput {
+  width: 1068px;
+  height: 150px;
+  overflow: auto;
+  border: 1px black solid;
+  background-color: rgb(244, 240, 240);
+  margin-bottom: 50px;
+}
+.classKeyboard {
+  width: 1068px;
+  height: 360px;
+  border: 1px black solid;
+  margin: 0 auto;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+.classButtonKey {
+  width: 60px;
+  height: 60px;
+  border: 1px black solid;
+  box-sizing: border-box;
+  background-color: rgb(88, 142, 142);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.classButtonKey:hover {
+  cursor: pointer;
+}
+.classButtonKeyLight {
+  background-color: rgb(248, 108, 234);
+  color: rgb(16, 17, 33);
+  transition: background-color .5s linear;
+}
+
+.Backspace,
+.CapsLock,
+.Enter,
+.Shift {
+  width: 132px;
+  background-color: rgb(33, 39, 54);
+}
+
+.Tab,
+.Delete,
+.Control,
+.Meta,
+.Alt,
+.Space {
+  background-color: rgb(33, 39, 54);
+}
+.classButtonKeySpecificLight {
+  background-color: rgb(238, 65, 111);
+  color: rgb(34, 38, 99);
+}
+.ArrowUp,
+.ArrowLeft,
+.ArrowDown,
+.ArrowRight {
+  background-color: brown;
+}
+.classButtonKeySpecificLight {
+  background-color: rgb(238, 65, 111);
+  color: rgb(34, 38, 99);
+  transition: background-color .5s linear;
+}
+.Space {
+  width: 492px;
+}
+.ArrowDownSvg {
+  transform: rotate(90deg);
+  margin-top: 23px;
+}
+.ArrowUpSvg {
+  transform: rotate(-90deg);
+}
+
+.classEn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 40px;
+  right: 120px;
+  background-color: gray;
+  color: black;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.classChang {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  top: 100px;
+  right: 0px;
+}
